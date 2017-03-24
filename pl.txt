@@ -1,0 +1,19 @@
+<marquee>
+ <div id="images">
+ <a href=""><img src="https://pbs.twimg.com/media/Cqe40CWWEAA7KFG.jpg:large" width=65%></a>
+ <a href=""><img src="https://pbs.twimg.com/media/C4ug0PYXUBo9zZi.jpg:large" width=19.6%></a>
+</marquee>
+
+<img src="https://cdn3.iconfinder.com/data/icons/3d-printing-icon-set/512/Graphic_tools.png" width=50px>
+
+ <li><a href="#!">Music</a></li>
+
+<div id="categories">
+      <h2 id="select">Select A Category</h2>
+      <button id="visual">
+        Visual
+      </button>
+      <button id="writing">
+        Writing
+      </button>
+</div>

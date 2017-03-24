@@ -1,0 +1,36 @@
+body {
+font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  background-color: #E4DED0;
+  font-size: 20px
+}
+
+#navtop{ background-color: #7DBEB8
+
+}
+
+#jewish {
+  background-image: url('jewish.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+
+#mountain {
+  background-image: url('mountain.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+#youtubers {
+  background-image: url('youtubers.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}

@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  background-color: #F9F2E7;
+  font-size: 20px;
+  font-family: 'Abel', sans-serif;
+  padding-bottom: 20px
+}
+
+.forming{
+  margin-left: 20%;
+}
+
+.middle{
+  margin-left: 40%;
+}
+
+.bottom{
+  margin-left: 30%;
+}
+
+.file{
+  margin-left: 15%;
+}
+
+.button{
+  margin-right: 40%;
+}
+
+#navtop {
+  background-color: #40C0CB
+}
+
+#brand-logo {
+  padding-top: 6px;
+}
+
+#brand-logo p,
+#brand-logo img {
+  display: inline-block;
+  margin: 0;
+}
+
+.input-field1 {
+  width: 15%;
+}
+
+.input-field2 {
+  width: 35%;
+}
+
+.input-field3 {
+  width: 35%;
+}
+
+.input-field4 {
+  width: 35%;
+}

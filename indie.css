@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-color: #F9F2E7;
+  font-family: 'Abel', sans-serif;
+
+}
+
+.navbar-fixed {
+  font-family: 'Abel', sans-serif;
+}
+
+#brand-logo {
+text-align: center;
+}
+
+#enter-title {
+  font-size: 35px;
+}
+
+#brand-logo {
+  padding-top: 6px;
+}
+
+#navtop {
+  background-color: #40C0CB
+}
+
+
+#categories {
+  background-color: #181619;
+  padding: 2px;
+  color: #E4DED0
+}
+
+#featuredwork {
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: #ABCCBD
+
+}
+
+#select {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+}

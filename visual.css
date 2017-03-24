@@ -1,0 +1,162 @@
+body{
+  background-color: #F9F2E7;
+  color: black;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+}
+
+#tittle {
+font-size: 50px;
+
+}
+.stuff {
+  width: 100%;
+}
+/*
+.row {
+  display: inline-block;
+  width: 30%
+
+}
+*/
+
+#brand-logo {
+  padding-top: 6px;
+}
+
+h3 {
+  color: white;
+  display:none;
+  text-align: center;
+}
+
+
+#navtop {
+  background-color: #40C0CB
+}
+
+#lightbulb {
+  background-image: url('lightbulb.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-left: 45px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+#nat{ background-image: url('natzulogo.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 400px;
+height: 400px;
+margin-right: 30px;
+  margin-top: 30px;
+
+}
+#Garnet{
+  background-image: url('Garnet.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+    margin-top: 30px;
+}
+
+#spacedout{
+  background-image: url('spacedout.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-left: 45px;
+  margin-right: 30px;
+}
+
+#chess{
+  background-image: url('chess.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+
+}
+
+#indie{
+  background-image: url('indie.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-right: 30px;
+}
+
+#jewish{
+  background-image: url('jewish.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-left: 45px;
+  margin-right: 30px;
+}
+
+#mountain{
+  background-image: url('mountain.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+    margin-right: 30px;
+}
+
+#youtubers{
+  background-image: url('youtubers.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+#poe {
+  background-image: url('poe.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-left: 45px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+#character {
+  background-image: url('character.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-right: 30px;
+    margin-top: 30px;
+}
+
+
+#moon {
+  background-image: url('moon.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+
+}

@@ -1,0 +1,83 @@
+body {
+font-family: 'Abel', sans-serif;
+  text-align: center;
+  background-color: #F9F2E7;
+  font-size: 20px
+}
+#tittle {
+font-size: 50px;
+
+}
+
+.navbar-fixed {
+  font-family: 'Abel', sans-serif;
+}
+
+#home{
+  float:left;
+}
+
+#search {
+  float: right;
+}
+
+#title {
+  /*
+  width:70%;
+  display:inline-block;
+  */
+  background-color: #F9F2E7;
+}
+
+
+
+#title  h1 {
+  width:50%;
+  display: inline-block;
+}
+
+#title p {
+  width:49%;
+  display: inline-block;
+}
+
+.story {
+  margin: 10px;
+  margin-left: 50px;
+  background-color: #ABCCBD;
+
+}
+ .color { background-color: #ABCCBD;
+
+
+ }
+
+ .color2 { background-color: #7DBEB8;
+
+ }
+
+ #navtop { background-color: #40C0CB;
+
+ }
+
+#brand-logo {
+  padding-top: 6px;
+}
+
+ .title {
+   font-size: 20px;
+   background-color: darkgrey
+ }
+
+ .collapsible-header{
+   font-size: 50px;
+   height: 65px;
+
+ }
+
+ .collapsible-body {
+   background-color: #ABCCBD;
+ }
+ .collapsible-header {
+   background-color: #7DBEB8
+ }

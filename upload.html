@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="upload.css">
+    <meta charset="utf-8">
+    <title>Upload Page</title>
+  </head>
+  <!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Abel|Quicksand" rel="stylesheet">
+
+  <script src="./upload.js"></script>
+  <body>
+
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper" id="navtop">
+          <a href="homepage.html" class="brand-logo" id="brand-logo">
+            <img src="https://cdn3.iconfinder.com/data/icons/3d-printing-icon-set/512/Graphic_tools.png" width=50px>
+          </a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="visual.html">Visual</a></li>
+            <li><a href="writingpage.html">Writing</a></li>
+          </ul>
+          <ul id="nav-mobile2"class="right hide-on-med-and-down2">
+            <li><a href="upload.html">Submit Work<i class="material-icons right">done</i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class =row>
+      <div class="col s8 offset-s2 offset-s2 color">
+        <h2>Upload Your Work</h2>
+      </div>
+    </div>
+
+    <div class="forming">
+    <div class="input-field1 col s12">
+       <select id="typeofwork">
+         <option value="" disabled selected>Type of Work</option>
+         <option value="1">Visual</option>
+         <option value="2">Writing</option>
+       </select>
+       <label>Type of Work</label>
+    </div>
+  </div>
+
+  <div class="middle">
+    <div class="row1">
+    <div class="input-field2 col s6">
+      <input value="" id="nameofartist" type="text" class="validate">
+      <label class="active" for="nameofartist">Name of Artist</label>
+    </div>
+    </div>
+
+
+
+  <div class="row2">
+  <div class="input-field3 col s6">
+    <input value="" id="nameofwork" type="text" class="validate">
+    <label class="active" for="nameofwork">Title of ArtWork</label>
+  </div>
+  </div>
+  </div>
+
+<div class="bottom">
+<div class="row3">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s7">
+          <textarea id="desc" class="materialize-textarea"></textarea>
+          <label for="desc">Description</label>
+        </div>
+      </div>
+    </form>
+</div>
+</dv>
+
+<div class="file">
+<div class="input-field4">
+  <form action="#">
+    <div class="file-field input-field">
+      <div class="btn">
+        <span>Upload ArtWork</span>
+        <input type="file" id="uploadfile">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+
+<div class="button">
+  <button id="submit" class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+
+</body>
+
+</html>
